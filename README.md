@@ -12,7 +12,6 @@ Section 1: Gettting started
 
 Section 2: Realistic Landscape
 
-![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/2023-06-09_00_11_23-Unreal EngineUdemy.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/HighresScreenshot00000.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/HighresScreenshot00001.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/HighresScreenshot00002.png)
