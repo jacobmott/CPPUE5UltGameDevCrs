@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F80A585E-4051-6081-83A6-9F8B36977541}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CPPUE5UltGameDevCrs",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
