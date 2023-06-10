@@ -36,9 +36,9 @@ Section 4: C++ in Unreal Engine
 
 Section 5: The Actor class
 
-
+Section 6: Moving Objects With Code
 
 Started Section: 
 
-Section 6: Moving Objects With Code
+Section 7: The Pawn Class
 
