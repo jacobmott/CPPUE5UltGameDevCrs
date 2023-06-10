@@ -34,9 +34,11 @@ Section 3: Vectors, Rotators, and Trigonometry
 
 Section 4: C++ in Unreal Engine
 
+Section 5: The Actor class
 
 
 
 Started Section: 
 
-Section 5: The Actor class
+Section 6: Moving Objects With Code
+
