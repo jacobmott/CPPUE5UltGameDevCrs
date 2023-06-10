@@ -40,20 +40,20 @@ https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/
 
 ## Section 7: The Pawn Class
 
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-1.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-10.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-11.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-12.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-13.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-14.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-2.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-3.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-4.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-5.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-6.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-7.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-8.png)
- ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-9.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-10.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-11.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-12.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-13.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-14.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/Screenshots/screenshot_2023-6-10-00-45-9.png)
 
 
 # Started Section: 
