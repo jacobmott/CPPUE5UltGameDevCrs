@@ -55,8 +55,15 @@ https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-8.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-9.png)
 
+## Section 8: The Character Class
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-16.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-17.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-18.png)
+
+
 
 # Started Section: 
 
-## Section 8: The Character Class
+## Section 9: The Animation Blueprint
 
