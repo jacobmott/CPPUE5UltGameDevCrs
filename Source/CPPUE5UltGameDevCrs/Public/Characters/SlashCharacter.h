@@ -27,7 +27,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-
+	virtual void Jump() override;
 
 protected:
 	// Called when the game starts or when spawned
@@ -44,8 +44,8 @@ protected:
 	UInputMappingContext* SlashContext;
 
 	///** Jump Input Action */
-	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-	//UInputAction* JumpAction;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* JumpAction;
 
 	/** Move Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
