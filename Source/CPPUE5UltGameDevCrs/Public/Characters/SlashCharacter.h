@@ -5,8 +5,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "InputActionValue.h"
+#include "CharacterTypes.h"
 #include "SlashCharacter.generated.h"
 
+
+class AItem;
 class UInputMappingContext;
 class UInputAction;
 class USpringArmComponent;
@@ -28,6 +31,13 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	virtual void Jump() override;
+
+	void EKeyPressed();
+
+	FORCEINLINE void SetOverlappingItem(AItem* Item) { OverlappingItem = Item; }
+	FORCEINLINE ECharacterState GetCharacterState() const { return CharacterState; }
+
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -56,6 +66,14 @@ protected:
   UInputAction* LookAction;
 
 
+	
+  ///** EKey Pressed Input Action */
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* EKeyPressedAction;
+
+	UPROPERTY(VisibleInstanceOnly)
+	AItem* OverlappingItem;
+
 	private:
     UPROPERTY(VisibleAnywhere)
     USpringArmComponent* CameraBoom;
@@ -68,4 +86,7 @@ protected:
 
     UPROPERTY(VisibleAnywhere, Category = Hair)
     UGroomComponent* Eyebrows;
+
+		ECharacterState CharacterState = ECharacterState::ECS_Unequipped;
+
 };
