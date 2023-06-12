@@ -82,6 +82,7 @@ https://youtu.be/z35rDsNMhzM
 
 ## Section 11: The Weapon Class
 
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/TheWeaponClass.gif)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-66.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-67.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-68.png)
