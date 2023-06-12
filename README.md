@@ -61,9 +61,20 @@ https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-17.png)
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-18.png)
 
+## Section 9: The Animation Blueprint
 
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-44.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-45.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-46.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-47.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-48.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-49.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-50.png)
+
+
+## Section 10: Collision and Overlaps
 
 # Started Section: 
 
-## Section 9: The Animation Blueprint
+## Section 11: The Weapon Class
 
