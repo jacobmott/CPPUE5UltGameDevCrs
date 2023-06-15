@@ -127,6 +127,10 @@ void AItem::Tick(float DeltaTime)
   //FVector AvgVector = Avg<FVector>(GetActorLocation(), FVector::ZeroVector);
   //DRAW_POINT_SingleFrame(AvgVector);
 
+  if (ItemState == EItemState::EIS_Hovering)
+  {
+    AddActorWorldOffset(FVector(0.f, 0.f, TransformedSin()));
+  }
 }
 
 float AItem::TransformedSin()

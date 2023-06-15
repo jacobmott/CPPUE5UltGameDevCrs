@@ -15,6 +15,8 @@ class UInputAction;
 class USpringArmComponent;
 class UCameraComponent;
 class UGroomComponent;
+class UAnimMontage;
+class AWeapon;
 
 UCLASS()
 class CPPUE5ULTGAMEDEVCRS_API ASlashCharacter : public ACharacter
@@ -37,7 +39,7 @@ public:
 	FORCEINLINE void SetOverlappingItem(AItem* Item) { OverlappingItem = Item; }
 	FORCEINLINE ECharacterState GetCharacterState() const { return CharacterState; }
 
-
+	void Attack();
 
 protected:
 	// Called when the game starts or when spawned
@@ -65,7 +67,10 @@ protected:
   UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
   UInputAction* LookAction;
 
-
+	
+  ///** Look Input Action */
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+  UInputAction* AttackAction;
 	
   ///** EKey Pressed Input Action */
   UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
@@ -73,6 +78,36 @@ protected:
 
 	UPROPERTY(VisibleInstanceOnly)
 	AItem* OverlappingItem;
+
+	/** 
+	* Animation montages
+	*/
+	UPROPERTY(EditDefaultsOnly, Category = Montages)
+	UAnimMontage* AttackMontage;
+
+	UPROPERTY(EditDefaultsOnly, Category = Montages)
+	UAnimMontage* EquipMontage;
+	/**
+	* Play montage functions
+	*/
+	void PlayAttackMontage();
+	void PlayEquipMontage(FName SectionName);
+
+	UFUNCTION(BlueprintCallable)
+	void AttackEnd();
+	bool CanAttack();
+	bool CanDisarm();
+	bool CanArm();
+
+	UFUNCTION(BlueprintCallable)
+	void Disarm();
+
+	UFUNCTION(BlueprintCallable)
+	void Arm();
+
+	UFUNCTION(BlueprintCallable)
+	void FinishEquipping();
+
 
 	private:
     UPROPERTY(VisibleAnywhere)
@@ -88,5 +123,11 @@ protected:
     UGroomComponent* Eyebrows;
 
 		ECharacterState CharacterState = ECharacterState::ECS_Unequipped;
+
+		UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+		EActionState ActionState = EActionState::EAS_Unoccupied;
+
+		UPROPERTY(VisibleAnywhere, Category = Weapon)
+		AWeapon* EquippedWeapon;
 
 };
