@@ -72,6 +72,8 @@ https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-50.png)
 
 
+### Youtube vid
+
 https://youtu.be/z35rDsNMhzM
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z35rDsNMhzM/0.jpg)](https://youtu.be/z35rDsNMhzM)
@@ -103,6 +105,10 @@ https://youtu.be/z35rDsNMhzM
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00010.png)
 
 ![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/attack2.gif)
+
+### Youtube vid
+
+https://www.youtube.com/watch?v=3m7zwrdR0Sc
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3m7zwrdR0Sc/0.jpg)](https://www.youtube.com/watch?v=3m7zwrdR0Sc)
 
