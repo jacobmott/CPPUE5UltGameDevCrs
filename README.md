@@ -88,9 +88,30 @@ https://youtu.be/z35rDsNMhzM
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshot_2023-6-10-00-45-68.png)
 
 
+## Section 12: Attacking
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00000.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00001.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00002.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00003.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00004.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00005.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00006.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00007.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00008.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00009.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00010.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/attack2.gif)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3m7zwrdR0Sc/0.jpg)](https://www.youtube.com/watch?v=3m7zwrdR0Sc)
+
+
+
 # Started Section: 
 
+## Section 13: Weapon Mechanics
 
-## Section 12: Attacking
+
 
 
