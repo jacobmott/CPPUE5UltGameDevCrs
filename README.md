@@ -112,11 +112,31 @@ https://www.youtube.com/watch?v=3m7zwrdR0Sc
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3m7zwrdR0Sc/0.jpg)](https://www.youtube.com/watch?v=3m7zwrdR0Sc)
 
+## Section 13: Weapon Mechanics
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/weaponmechanics-trails5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/weaponmechanics-trails7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/weaponmechanics-trails8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/weaponmechanics-trails9.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/ScreenShot00011.png)
+
+
+
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/WeaponMechanicsTrails.gif)
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/WeaponMechanicsTrailsAndBloodAndPushing.gif)
+
+
+### Youtube vid
+
+https://www.youtube.com/watch?v=EbecrGsEiHQ
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EbecrGsEiHQ/0.jpg)](https://www.youtube.com/watch?v=EbecrGsEiHQ)
 
 
 # Started Section: 
 
-## Section 13: Weapon Mechanics
+## Section 14: Breakable Actors
 
 
 
