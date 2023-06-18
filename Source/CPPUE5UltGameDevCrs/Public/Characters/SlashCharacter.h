@@ -32,6 +32,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintCallable)
+	void SetWeaponCollisionEnabled(ECollisionEnabled::Type CollisionEnabled);
+
 	virtual void Jump() override;
 
 	void EKeyPressed();
@@ -91,7 +94,7 @@ protected:
 	* Play montage functions
 	*/
 	void PlayAttackMontage();
-	void PlayEquipMontage(FName SectionName);
+	void PlayEquipMontage(const FName& SectionName);
 
 	UFUNCTION(BlueprintCallable)
 	void AttackEnd();
