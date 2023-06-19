@@ -67,6 +67,15 @@ void AWeapon::OnBoxOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 
   if (BoxHit.GetActor())
   {
+
+    UGameplayStatics::ApplyDamage(
+      BoxHit.GetActor(),
+      Damage,
+      GetInstigator()->GetController(),
+      this,
+      UDamageType::StaticClass()
+    );
+
     IHitInterface* HitInterface = Cast<IHitInterface>(BoxHit.GetActor());
     if (HitInterface)
     {
@@ -74,8 +83,8 @@ void AWeapon::OnBoxOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Oth
     }
     IgnoreActors.AddUnique(BoxHit.GetActor());
     CreateFields(BoxHit.ImpactPoint);
-  }
 
+  }
 
 }
 
@@ -85,7 +94,7 @@ void AWeapon::OnBoxOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 void AWeapon::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
   Super::OnSphereOverlap(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
-  
+
 
   //ASlashCharacter* SlashCharacter = Cast<ASlashCharacter>(OtherActor);
   //if (SlashCharacter)
@@ -98,21 +107,23 @@ void AWeapon::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* 
 
 }
 
-void AWeapon::OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-{
-	Super::OnSphereEndOverlap(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex);
+  void AWeapon::OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+  {
+    Super::OnSphereEndOverlap(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex);
 
 }
 
 
-void AWeapon::AttachMeshToSocket(USceneComponent* InParent, const FName& InSocketName)
+void AWeapon::AttachMeshToSocket(USceneComponent * InParent, const FName & InSocketName)
 {
   FAttachmentTransformRules TransformRules(EAttachmentRule::SnapToTarget, true);
   ItemMesh->AttachToComponent(InParent, TransformRules, InSocketName);
 }
 
-void AWeapon::Equip(USceneComponent* InParent, FName InSocketName)
+void AWeapon::Equip(USceneComponent* InParent, FName InSocketName, AActor* NewOwner, APawn* NewInstigator)
 {
+  SetOwner(NewOwner);
+  SetInstigator(NewInstigator);
   AttachMeshToSocket(InParent, InSocketName);
   ItemState = EItemState::EIS_Equipped;
 
