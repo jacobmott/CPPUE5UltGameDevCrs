@@ -171,8 +171,36 @@ https://youtu.be/6LlGs6K1GWQ
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6LlGs6K1GWQ/0.jpg)](https://youtu.be/6LlGs6K1GWQ)
 
+## Section 16: Combat
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CombathHealthAttributes1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CombathHealthAttributes2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CombathHealthAttributes3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CombathHealthAttributes5.png)
+
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/CombatHealthAttributes.gif)
+
+
+### Youtube vid
+
+https://youtu.be/2k-m8ZIK8vg
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2k-m8ZIK8vg/0.jpg)](https://youtu.be/2k-m8ZIK8vg)
+
+
 # Started Section: 
 
-## Section 16: Combat
+
+## Section 17: Enemy Behavior
+
+        
+
+
+
+
+
+
+
 
 
