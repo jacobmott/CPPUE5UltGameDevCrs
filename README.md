@@ -189,10 +189,28 @@ https://youtu.be/2k-m8ZIK8vg
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2k-m8ZIK8vg/0.jpg)](https://youtu.be/2k-m8ZIK8vg)
 
 
+## Section 17: Enemy Behavior
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyBehavior1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyBehavior2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyBehavior3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyBehavior4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyBehavior6.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyBehavior.gif)
+
+
+### Youtube vid
+
+https://youtu.be/yWafqBTI6WE
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yWafqBTI6WE/0.jpg)](https://youtu.be/yWafqBTI6WE)
+
+
 # Started Section: 
 
+## Section 18: Enemy Attacks
 
-## Section 17: Enemy Behavior
 
         
 
