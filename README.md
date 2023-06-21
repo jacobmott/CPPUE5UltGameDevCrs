@@ -206,14 +206,27 @@ https://youtu.be/yWafqBTI6WE
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yWafqBTI6WE/0.jpg)](https://youtu.be/yWafqBTI6WE)
 
+## Section 18: Enemy Attacks
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyAttacks1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyAttacks2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyAttacks3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyAttacks4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyAttacks5.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EnemyAttacks.gif)
+
+
+### Youtube vid
+
+https://youtu.be/YwWpyld5vQU
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YwWpyld5vQU/0.jpg)](https://youtu.be/YwWpyld5vQU)
 
 # Started Section: 
 
-## Section 18: Enemy Attacks
 
-
-        
-
+## Section 19: Smarter Enemies
 
 
 
