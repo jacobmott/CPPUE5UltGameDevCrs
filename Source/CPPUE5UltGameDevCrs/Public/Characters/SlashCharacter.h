@@ -3,50 +3,33 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
-#include "InputActionValue.h"
+#include "BaseCharacter.h"
 #include "CharacterTypes.h"
+#include "InputActionValue.h"
 #include "SlashCharacter.generated.h"
 
-
-class AItem;
-class UInputMappingContext;
-class UInputAction;
 class USpringArmComponent;
 class UCameraComponent;
 class UGroomComponent;
+class AItem;
 class UAnimMontage;
-class AWeapon;
+class UInputMappingContext;
+class UInputAction;
 
 UCLASS()
-class CPPUE5ULTGAMEDEVCRS_API ASlashCharacter : public ACharacter
+class CPPUE5ULTGAMEDEVCRS_API ASlashCharacter : public ABaseCharacter
 {
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	ASlashCharacter();
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	UFUNCTION(BlueprintCallable)
-	void SetWeaponCollisionEnabled(ECollisionEnabled::Type CollisionEnabled);
-
-	virtual void Jump() override;
-
-	void EKeyPressed();
-
-	FORCEINLINE void SetOverlappingItem(AItem* Item) { OverlappingItem = Item; }
-	FORCEINLINE ECharacterState GetCharacterState() const { return CharacterState; }
-
-	void Attack();
+	virtual void GetHit_Implementation(const FVector& ImpactPoint) override;
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	/** Callbacks for input	*/
 
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
@@ -54,7 +37,32 @@ protected:
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
 
-	/** MappingContext */
+	virtual void Jump() override;
+	void EKeyPressed();
+
+	/** Callbacks for input	*/
+	virtual void Attack() override;
+
+	/** Combat */
+	void EquipWeapon(AWeapon* Weapon);
+	virtual void AttackEnd() override;
+	virtual bool CanAttack() override;
+	bool CanDisarm();
+	bool CanArm();
+	void Disarm();
+	void Arm();
+	void PlayEquipMontage(const FName& SectionName);
+
+	UFUNCTION(BlueprintCallable)
+	void AttachWeaponToBack();
+
+	UFUNCTION(BlueprintCallable)
+	void AttachWeaponToHand();
+
+	UFUNCTION(BlueprintCallable)
+	void FinishEquipping();
+
+	  /** MappingContext */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputMappingContext* SlashContext;
 
@@ -79,58 +87,36 @@ protected:
   UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
   UInputAction* EKeyPressedAction;
 
+
+
+private:
+
+	/** Character components */
+
+	UPROPERTY(VisibleAnywhere)
+	USpringArmComponent* CameraBoom;
+
+	UPROPERTY(VisibleAnywhere)
+	UCameraComponent* ViewCamera;
+
+	UPROPERTY(VisibleAnywhere, Category = Hair)
+	UGroomComponent* Hair;
+
+	UPROPERTY(VisibleAnywhere, Category = Hair)
+	UGroomComponent* Eyebrows;
+
 	UPROPERTY(VisibleInstanceOnly)
 	AItem* OverlappingItem;
 
-	/** 
-	* Animation montages
-	*/
-	UPROPERTY(EditDefaultsOnly, Category = Montages)
-	UAnimMontage* AttackMontage;
-
 	UPROPERTY(EditDefaultsOnly, Category = Montages)
 	UAnimMontage* EquipMontage;
-	/**
-	* Play montage functions
-	*/
-	void PlayAttackMontage();
-	void PlayEquipMontage(const FName& SectionName);
 
-	UFUNCTION(BlueprintCallable)
-	void AttackEnd();
-	bool CanAttack();
-	bool CanDisarm();
-	bool CanArm();
+	ECharacterState CharacterState = ECharacterState::ECS_Unequipped;
 
-	UFUNCTION(BlueprintCallable)
-	void Disarm();
+	UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	EActionState ActionState = EActionState::EAS_Unoccupied;
 
-	UFUNCTION(BlueprintCallable)
-	void Arm();
-
-	UFUNCTION(BlueprintCallable)
-	void FinishEquipping();
-
-
-	private:
-    UPROPERTY(VisibleAnywhere)
-    USpringArmComponent* CameraBoom;
-
-    UPROPERTY(VisibleAnywhere)
-    UCameraComponent* ViewCamera;
-
-		UPROPERTY(VisibleAnywhere, Category = Hair)
-	  UGroomComponent* Hair;
-
-    UPROPERTY(VisibleAnywhere, Category = Hair)
-    UGroomComponent* Eyebrows;
-
-		ECharacterState CharacterState = ECharacterState::ECS_Unequipped;
-
-		UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-		EActionState ActionState = EActionState::EAS_Unoccupied;
-
-		UPROPERTY(VisibleAnywhere, Category = Weapon)
-		AWeapon* EquippedWeapon;
-
+public:
+	FORCEINLINE void SetOverlappingItem(AItem* Item) { OverlappingItem = Item; }
+	FORCEINLINE ECharacterState GetCharacterState() const { return CharacterState; }
 };
