@@ -223,10 +223,36 @@ https://youtu.be/YwWpyld5vQU
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YwWpyld5vQU/0.jpg)](https://youtu.be/YwWpyld5vQU)
 
+## Section 19: Smarter Enemies
+
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies9.png)
+
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SmarterEnemies.gif)
+
+
+### Youtube vid
+
+https://youtu.be/ofV1AVv6TMA
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ofV1AVv6TMA/0.jpg)](https://youtu.be/ofV1AVv6TMA)
+
+
+
+
+
 # Started Section: 
 
 
-## Section 19: Smarter Enemies
+## Section 20: Echo's Attributes
 
 
 
