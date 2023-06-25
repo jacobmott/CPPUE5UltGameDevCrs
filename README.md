@@ -265,15 +265,30 @@ https://youtu.be/LMIZahHacxw
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LMIZahHacxw/0.jpg)](https://youtu.be/LMIZahHacxw)
 
 
+## Section 21: Souls and Stamina
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina7.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/SoulsAndStamina.gif)
+
+
+### Youtube vid
+
+https://youtu.be/fMWQAAqtKXo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fMWQAAqtKXo/0.jpg)](https://youtu.be/fMWQAAqtKXo)
 
 
 # Started Section: 
 
 
-## Section 21: Souls and Stamina
-
-
-
+## Section 22: Multiple Types of Enemies
 
 
 
