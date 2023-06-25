@@ -5,7 +5,10 @@
 #include "CPPUE5UltGameDevCrs/DebugMacros.h"
 #include "Components/SphereComponent.h"
 #include "Characters/SlashCharacter.h"
+#include "Interfaces/PickupInterface.h"
 #include "NiagaraComponent.h"
+#include "NiagaraFunctionLibrary.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AItem::AItem()
@@ -21,8 +24,8 @@ AItem::AItem()
   Sphere = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere"));
   Sphere->SetupAttachment(GetRootComponent());
 
-  EmbersEffect = CreateDefaultSubobject<UNiagaraComponent>(TEXT("Embers"));
-  EmbersEffect->SetupAttachment(GetRootComponent());
+  ItemEffect = CreateDefaultSubobject<UNiagaraComponent>(TEXT("Embers"));
+  ItemEffect->SetupAttachment(GetRootComponent());
 
 }
 
@@ -62,10 +65,10 @@ void AItem::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Ot
   //  GEngine->AddOnScreenDebugMessage(1, 30.f, FColor::Red, OtherActorName);
   //}
 
-  ASlashCharacter* SlashCharacter = Cast<ASlashCharacter>(OtherActor);
-  if (SlashCharacter)
+  IPickupInterface* PickupInterface = Cast<IPickupInterface>(OtherActor);
+  if (PickupInterface)
   {
-    SlashCharacter->SetOverlappingItem(this);
+    PickupInterface->SetOverlappingItem(this);
   }
 
 
@@ -80,13 +83,39 @@ void AItem::OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor*
   //  GEngine->AddOnScreenDebugMessage(1, 30.f, FColor::Blue, OtherActorName);
   //}
 
-  ASlashCharacter* SlashCharacter = Cast<ASlashCharacter>(OtherActor);
-  if (SlashCharacter)
+  IPickupInterface* PickupInterface = Cast<IPickupInterface>(OtherActor);
+  if (PickupInterface)
   {
-    SlashCharacter->SetOverlappingItem(nullptr);
+    PickupInterface->SetOverlappingItem(nullptr);
   }
 
 }
+
+void AItem::SpawnPickupSystem()
+{
+  if (PickupEffect)
+  {
+    UNiagaraFunctionLibrary::SpawnSystemAtLocation(
+      this,
+      PickupEffect,
+      GetActorLocation()
+    );
+  }
+}
+
+void AItem::SpawnPickupSound()
+{
+  if (PickupSound)
+  {
+    UGameplayStatics::SpawnSoundAtLocation(
+      this,
+      PickupSound,
+      GetActorLocation()
+    );
+  }
+}
+
+
 
 
 // Called every frame
