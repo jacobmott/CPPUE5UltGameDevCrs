@@ -245,6 +245,24 @@ https://youtu.be/ofV1AVv6TMA
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ofV1AVv6TMA/0.jpg)](https://youtu.be/ofV1AVv6TMA)
 
+## Section 20: Echo's Attributes
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes8.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/EchosAttributes.gif)
+
+
+### Youtube vid
+
+https://youtu.be/LMIZahHacxw
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LMIZahHacxw/0.jpg)](https://youtu.be/LMIZahHacxw)
 
 
 
@@ -252,7 +270,7 @@ https://youtu.be/ofV1AVv6TMA
 # Started Section: 
 
 
-## Section 20: Echo's Attributes
+## Section 21: Souls and Stamina
 
 
 
