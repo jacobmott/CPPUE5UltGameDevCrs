@@ -357,7 +357,7 @@ https://youtu.be/qkL6ztDvVp0
 
 ### Youtube vid
 
-https://youtu.be/qkL6ztDvVp0
+https://youtu.be/gd4XaIl6h18
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qkL6ztDvVp0/0.jpg)](https://youtu.be/qkL6ztDvVp0)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gd4XaIl6h18/0.jpg)](https://youtu.be/gd4XaIl6h18)
 
