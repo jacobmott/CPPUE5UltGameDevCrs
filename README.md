@@ -322,5 +322,42 @@ https://youtu.be/qkL6ztDvVp0
 # FINAL VIDS/SCREENSHOTS
 
 
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse9.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse10.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse11.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse12.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse13.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse14.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse15.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse16.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse17.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse18.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse19.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse20.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse21.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse22.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse23.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse24.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse25.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse26.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse27.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse28.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse29.png)
 
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/UnrealEngine5C++TheUltimateGameDeveloperCourseFinalVideoFinishedCourse.gif)
+
+
+### Youtube vid
+
+https://youtu.be/qkL6ztDvVp0
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qkL6ztDvVp0/0.jpg)](https://youtu.be/qkL6ztDvVp0)
 
