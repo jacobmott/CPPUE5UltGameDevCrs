@@ -38,7 +38,7 @@ void AEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	MakeSureNavMeshIsReady(PatrolTarget);
+	//MakeSureNavMeshIsReady(PatrolTarget);
 	if (IsDead()) return;
 
 	if (EnemyState > EEnemyState::EES_Patrolling)
@@ -83,6 +83,10 @@ void AEnemy::GetHit_Implementation(const FVector& ImpactPoint, AActor* Hitter)
 	SetWeaponCollisionEnabled(ECollisionEnabled::NoCollision);
 
 	StopAttackMontage();
+	if (IsInsideAttackRadius())
+	{
+		if (!IsDead()) StartAttackTimer();
+	}
 }
 
 void AEnemy::BeginPlay()
@@ -94,10 +98,10 @@ void AEnemy::BeginPlay()
 	Tags.Add(FName("Enemy"));
 }
 
-void AEnemy::Die()
+void AEnemy::Die_Implementation()
 {
 
-	Super::Die();
+	Super::Die_Implementation();
 
 	EnemyState = EEnemyState::EES_Dead;
 	ClearAttackTimer();
@@ -114,10 +118,12 @@ void AEnemy::SpawnSoul()
 	UWorld* World = GetWorld();
 	if (World && SoulClass && Attributes)
 	{
-		ASoul* SpawnedSoul = World->SpawnActor<ASoul>(SoulClass, GetActorLocation(), GetActorRotation());
+		const FVector SpawnLocation = GetActorLocation() + FVector(0.f, 0.f, 125.f);
+		ASoul* SpawnedSoul = World->SpawnActor<ASoul>(SoulClass, SpawnLocation, GetActorRotation());
 		if (SpawnedSoul)
 		{
 			SpawnedSoul->SetSouls(Attributes->GetSouls());
+			SpawnedSoul->SetOwner(this);
 		}
 	}
 }
@@ -172,6 +178,17 @@ void AEnemy::InitializeEnemy()
 
 void AEnemy::CheckPatrolTarget()
 {
+  //if (GEngine && GetActorNameOrLabel().Equals(TEXT("BP_Raptor")))
+  //{
+  //  //GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Green, FString::Printf(TEXT("ASlashCharacter::Dodge Here1")), false);
+  //	const FString MyString = GetActorNameOrLabel();
+  //	//const FString MyStringPrintf = FString::Printf(TEXT("MyStringPrintf: {0}, {1}, {2}"));
+  //	const FString MyStringPrintf = FString(TEXT("GetActorNameOrLabel: {0}"));
+  //	const FString MyStringFormatted = FString::Format(*MyStringPrintf, { MyString });
+  //  //FString SomeOtherText = GetActorNameOrLabel();
+  //  //FString string = FString::Printf(TEXT("Name = %s", *SomeOtherText));
+  //  GEngine->AddOnScreenDebugMessage(1, 0.2f, FColor::Green, TEXT("Checking Patrol Target"), true);
+  //}
 	if (InTargetRange(PatrolTarget, PatrolRadius))
 	{
 		PatrolTarget = ChoosePatrolTarget();
@@ -296,6 +313,19 @@ bool AEnemy::InTargetRange(AActor* Target, double Radius)
 {
 	if (Target == nullptr) return false;
 	const double DistanceToTarget = (Target->GetActorLocation() - GetActorLocation()).Size();
+  //if (GEngine && GetActorNameOrLabel().Equals(TEXT("BP_Raptor")))
+  //{
+  //	//GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Green, FString::Printf(TEXT("ASlashCharacter::Dodge Here1")), false);
+  //	const FString MyString = GetActorNameOrLabel();
+  //	const FString TargetName = Target->GetActorNameOrLabel();
+  //	//const FString MyStringPrintf = FString::Printf(TEXT("MyStringPrintf: {0}, {1}, {2}"));
+  //	const FString MyStringPrintf = FString(TEXT("InTargetRangeCalled: Radius: {0}, Target: {1}, DistanceToTarget: {2}, Result: {3}"));
+  //	bool result = DistanceToTarget <= Radius;
+  //	const FString MyStringFormatted = FString::Format(*MyStringPrintf, { Radius, TargetName, DistanceToTarget, result });
+  //	//FString SomeOtherText = GetActorNameOrLabel();
+  //	//FString string = FString::Printf(TEXT("Name = %s", *SomeOtherText));
+  //	GEngine->AddOnScreenDebugMessage(2, 0.2f, FColor::Blue, MyStringFormatted, true);
+  //}
 	return DistanceToTarget <= Radius;
 }
 
@@ -304,7 +334,7 @@ void AEnemy::MoveToTarget(AActor* Target)
 	if (EnemyController == nullptr || Target == nullptr) return;
 	FAIMoveRequest MoveRequest;
 	MoveRequest.SetGoalActor(Target);
-	MoveRequest.SetAcceptanceRadius(50.f);
+	MoveRequest.SetAcceptanceRadius(AcceptanceRadius);
 	EnemyController->MoveTo(MoveRequest);
 }
 
@@ -334,7 +364,7 @@ void AEnemy::SpawnDefaultWeapon()
 	if (World && WeaponClass)
 	{
 		AWeapon* DefaultWeapon = World->SpawnActor<AWeapon>(WeaponClass);
-		DefaultWeapon->Equip(GetMesh(), FName("RightHandSocket"), this, this);
+		DefaultWeapon->Equip(GetMesh(), FName("WeaponSocket"), this, this);
 		EquippedWeapon = DefaultWeapon;
 	}
 }

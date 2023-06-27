@@ -34,7 +34,7 @@ protected:
 	/** </AActor> */
 
 	/** <ABaseCharacter> */
-	virtual void Die() override;
+	virtual void Die_Implementation() override;
 	void SpawnSoul();
 	virtual void Attack() override;
 	virtual bool CanAttack() override;
@@ -43,9 +43,21 @@ protected:
 	/** </ABaseCharacter> */
 
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
 	EEnemyState EnemyState = EEnemyState::EES_Patrolling;
 
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Combat)
+	double CombatRadius = 500.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Combat)
+	double AttackRadius = 150.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Combat)
+	double PatrolRadius = 200.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Combat)
+	double AcceptanceRadius = 50.f;
 
 private:
 
@@ -87,14 +99,9 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	UPawnSensingComponent* PawnSensing;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = Combat)
 	TSubclassOf<class AWeapon> WeaponClass;
 
-	UPROPERTY(EditAnywhere)
-	double CombatRadius = 500.f;
-
-	UPROPERTY(EditAnywhere)
-	double AttackRadius = 150.f;
 
 	UPROPERTY()
 	class AAIController* EnemyController;
@@ -105,9 +112,6 @@ private:
 
 	UPROPERTY(EditInstanceOnly, Category = "AI Navigation")
 	TArray<AActor*> PatrolTargets;
-
-	UPROPERTY(EditAnywhere)
-	double PatrolRadius = 200.f;
 
 	FTimerHandle PatrolTimer;
 
