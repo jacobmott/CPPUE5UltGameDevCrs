@@ -285,12 +285,34 @@ https://youtu.be/fMWQAAqtKXo
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fMWQAAqtKXo/0.jpg)](https://youtu.be/fMWQAAqtKXo)
 
 
-# Started Section: 
-
 
 ## Section 22: Multiple Types of Enemies
 
 
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies1.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies2.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies3.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies4.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies5.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies6.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies7.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies8.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies9.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies10.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies11.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies12.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies13.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies14.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies15.png)
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies16.png)
+
+![](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/MultipleTypesOfEnemies.gif)
 
 
+### Youtube vid
 
+https://youtu.be/qkL6ztDvVp0
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qkL6ztDvVp0/0.jpg)](https://youtu.be/qkL6ztDvVp0)
+
+# FINISHED COURSE!
