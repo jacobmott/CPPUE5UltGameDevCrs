@@ -1,12 +1,16 @@
 # CPPUE5UltGameDevCrs
-Working through Unreal Engine 5 C++ The Ultimate Game Developer Course on udemy. In Progress! 
+Working through Unreal Engine 5 C++ The Ultimate Game Developer Course on udemy. Finished the course! 
 
 https://www.udemy.com/course/unreal-engine-5-the-ultimate-game-developer-course/
 
 ![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots/screenshotMainCourse2023-06-5-00.png)
 
 
-# Finished Sections of course
+# Finished the Course! 
+
+![image](https://media.githubusercontent.com/media/jacobmott/CPPUE5UltGameDevCrs/main/Screenshots//UnrealEngine5C++TheUltimateGameDeveloperCourse-UdemyCertificate.jpg)
+
+# Sections
 
 ## Section 1: Gettting started
 
