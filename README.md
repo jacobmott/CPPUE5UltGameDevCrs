@@ -365,3 +365,39 @@ https://youtu.be/gd4XaIl6h18
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gd4XaIl6h18/0.jpg)](https://youtu.be/gd4XaIl6h18)
 
+
+
+## For me
+The Screenshots folder is stored in s3 bucket
+Need to move the content folder to s3
+Pull down from bucket
+```
+  #Execute this from the directory above CPPUE5UltGameDevCrs
+  Need to set this up
+  aws s3 cp --recursive s3://<bucket>/CPPUE5UltGameDevCrs/Content CPPUE5UltGameDevCrs/Content
+
+
+  aws s3 cp --recursive s3://<bucket>/CPPUE5UltGameDevCrs/Screenshots CPPUE5MultiplayerShooter/Screenshots
+
+```
+
+Push to bucket
+```
+  #Execute this from the directory above CPPUE5UltGameDevCrs
+  Need to set this up
+  aws s3 cp --recursive CPPUE5UltGameDevCrs/Content s3://<bucket>/CPPUE5UltGameDevCrs/Content
+
+  aws s3 cp --recursive CPPUE5UltGameDevCrs/Screenshots s3://<bucket>/CPPUE5UltGameDevCrs/Screenshots
+
+```
+
+Or just do a sync
+```
+  #Execute this from the directory above CPPUE5UltGameDevCrs
+  Need to set this up
+  aws s3 sync CPPUE5UltGameDevCrs/Content s3://<bucket>/CPPUE5UltGameDevCrs/Content --delete
+
+  aws s3 sync CPPUE5UltGameDevCrs/Screenshots s3://<bucket>/CPPUE5UltGameDevCrs/Screenshots --delete
+
+```
+
