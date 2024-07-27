@@ -370,6 +370,7 @@ https://youtu.be/gd4XaIl6h18
 ## For me
 The Screenshots folder is stored in s3 bucket
 Need to move the content folder to s3
+
 Pull down from bucket
 ```
   #Execute this from the directory above CPPUE5UltGameDevCrs
