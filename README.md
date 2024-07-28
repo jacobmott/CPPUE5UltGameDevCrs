@@ -374,10 +374,8 @@ Need to move the content folder to s3
 Pull down from bucket
 ```
   #Execute this from the directory above CPPUE5UltGameDevCrs
-  Need to set this up
   aws s3 cp --recursive s3://<bucket>/CPPUE5UltGameDevCrs/Content CPPUE5UltGameDevCrs/Content
-
-
+  aws s3 cp --recursive s3://<bucket>/CPPUE5UltGameDevCrs/Assets CPPUE5UltGameDevCrs/Assets
   aws s3 cp --recursive s3://<bucket>/CPPUE5UltGameDevCrs/Screenshots CPPUE5MultiplayerShooter/Screenshots
 
 ```
@@ -385,9 +383,8 @@ Pull down from bucket
 Push to bucket
 ```
   #Execute this from the directory above CPPUE5UltGameDevCrs
-  Need to set this up
   aws s3 cp --recursive CPPUE5UltGameDevCrs/Content s3://<bucket>/CPPUE5UltGameDevCrs/Content
-
+  aws s3 cp --recursive CPPUE5UltGameDevCrs/Assets s3://<bucket>/CPPUE5UltGameDevCrs/Assets
   aws s3 cp --recursive CPPUE5UltGameDevCrs/Screenshots s3://<bucket>/CPPUE5UltGameDevCrs/Screenshots
 
 ```
@@ -395,9 +392,8 @@ Push to bucket
 Or just do a sync
 ```
   #Execute this from the directory above CPPUE5UltGameDevCrs
-  Need to set this up
   aws s3 sync CPPUE5UltGameDevCrs/Content s3://<bucket>/CPPUE5UltGameDevCrs/Content --delete
-
+  aws s3 sync CPPUE5UltGameDevCrs/Assets s3://<bucket>/CPPUE5UltGameDevCrs/Assets --delete
   aws s3 sync CPPUE5UltGameDevCrs/Screenshots s3://<bucket>/CPPUE5UltGameDevCrs/Screenshots --delete
 
 ```
